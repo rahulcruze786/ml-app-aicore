@@ -1,1 +1,8 @@
-
+apiVersion: ai.sap.com/v1alpha1
+kind: Scenario
+metadata:
+  name: ml-scenario
+  labels:
+    ai.sap.com/version: "1.0.0"
+spec:
+  description: "Dummy ML inference scenario"
