@@ -5,6 +5,9 @@ metadata:
   labels:
     scenarios.ai.sap.com/id: "ml-scenario"
     executables.ai.sap.com/id: "ml-serving"
+    ai.sap.com/version: "1.0.0"
+  annotations:
+    executables.ai.sap.com/name: "dummy-ml-model"
 spec:
   template:
     apiVersion: serving.kserve.io/v1beta1
