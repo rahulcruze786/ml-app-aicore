@@ -19,7 +19,7 @@ spec:
           - name: kserve-container
             image: docker.io/rahulcruze786/ml-app:0.0.1
             ports:
-              - containerPort: 9001
+              - containerPort: 9002
                 protocol: TCP
             env:
               - name: STORAGE_URI
