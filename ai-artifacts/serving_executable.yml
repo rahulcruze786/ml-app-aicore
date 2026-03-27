@@ -10,11 +10,12 @@ spec:
     apiVersion: serving.kserve.io/v1beta1
     kind: InferenceService
     metadata:
-      annotations:
+      name: dummy-ml-model
+      annotations: |
         autoscaling.knative.dev/metric: concurrency
         autoscaling.knative.dev/target: "1"
         autoscaling.knative.dev/targetBurstCapacity: "0"
-    spec:
+    spec: |
       predictor:
         containers:
           - name: kserve-container
