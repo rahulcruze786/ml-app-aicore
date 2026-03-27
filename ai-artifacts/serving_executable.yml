@@ -26,6 +26,6 @@ spec:
             ports:
               - containerPort: 9002
                 protocol: TCP
-            env:
-              - name: STORAGE_URI
-                value: "nonexistent"
+#            env:
+#              - name: STORAGE_URI
+#                value: "nonexistent"
